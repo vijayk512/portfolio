@@ -1,0 +1,31 @@
+ul {
+  color: #24292e;
+}
+
+ol {
+  color: #24292e;
+}
+
+div {
+  font-size: 14px;
+}
+div h5 {
+  text-decoration: underline;
+  color: #17a2b8;
+}
+
+.read-more a {
+  float: right;
+  color: #17a2b8;
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+#contact-info, #experience, #about, #home {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=other.css.map */

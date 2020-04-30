@@ -1,0 +1,48 @@
+$color: #24292e;
+
+ul {
+    color: $color;
+}
+
+ol {
+    color: $color;
+}
+
+div {
+    font-size: 14px;
+
+    h5{
+    text-decoration: underline;
+    color: #17a2b8;
+    }
+}
+
+.read-more a{
+    float: right;
+    color: #17a2b8;
+    text-decoration: underline;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+%content {
+    margin-top: 10px;
+}
+
+#home {
+    @extend %content;
+}
+
+#about {
+    @extend %content;
+}
+
+#experience {
+    @extend %content;
+}
+
+#contact-info {
+    @extend %content;
+}

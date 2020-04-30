@@ -1,0 +1,44 @@
+.nav {
+    background-color: #333940;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.nav a{
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.profile{
+    text-align:  center;
+    margin-bottom: 20px;
+}
+
+.profile img{
+    border: 3px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+
+table th {
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+table td{
+    padding: 10px 5px;
+    border: 1px solid #d3d3d3;
+}
+
+@media (max-width: 500px) {
+body{
+    background-color: #d3d3d3;
+    }
+}
